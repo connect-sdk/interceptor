@@ -3,7 +3,7 @@ module github.com/connect-sdk/interceptor
 go 1.21.1
 
 require (
-	connectrpc.com/connect v1.12.0
+	connectrpc.com/connect v1.13.0
 	connectrpc.com/otelconnect v0.6.0
 	github.com/connect-sdk/telemetry v0.0.0-20231120062425-9c1f118a4401
 	github.com/gofrs/uuid v4.4.0+incompatible
