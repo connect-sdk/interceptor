@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	"connectrpc.com/connect"
+	"connectrpc.com/validate"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 )
 
@@ -74,6 +75,7 @@ func WithValidator() connect.Option {
 	}
 
 	unaryFn := connect.UnaryInterceptorFunc(interFn)
+	unaryFnInterceptor, _ := validate.NewInterceptor()
 	// prepare the option
-	return connect.WithInterceptors(unaryFn)
+	return connect.WithInterceptors(unaryFn, unaryFnInterceptor)
 }
