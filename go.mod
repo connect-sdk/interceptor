@@ -3,7 +3,7 @@ module github.com/connect-sdk/interceptor
 go 1.21.1
 
 require (
-	connectrpc.com/connect v1.13.0
+	connectrpc.com/connect v1.14.0
 	connectrpc.com/otelconnect v0.6.0
 	connectrpc.com/validate v0.1.0
 	github.com/connect-sdk/telemetry v0.0.0-20231120062425-9c1f118a4401
@@ -45,5 +45,5 @@ require (
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20231212172506-995d672761c0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20231212172506-995d672761c0 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.32.0 // indirect
 )
