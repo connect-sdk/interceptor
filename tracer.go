@@ -10,7 +10,7 @@ import (
 func WithTracer() connect.Option {
 	propagator := telemetry.NewTracePropagator()
 
-	unaryFn := otelconnect.NewInterceptor(
+	unaryFn, _ := otelconnect.NewInterceptor(
 		otelconnect.WithPropagator(propagator),
 	)
 
