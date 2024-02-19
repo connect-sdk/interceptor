@@ -3,7 +3,7 @@ module github.com/connect-sdk/interceptor
 go 1.21.1
 
 require (
-	connectrpc.com/connect v1.14.0
+	connectrpc.com/connect v1.15.0
 	connectrpc.com/otelconnect v0.7.0
 	connectrpc.com/validate v0.1.0
 	github.com/connect-sdk/telemetry v0.0.0-20240118065944-166c7ae5b607
