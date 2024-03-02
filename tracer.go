@@ -11,6 +11,7 @@ func WithTracer() connect.Option {
 	propagator := telemetry.NewTracePropagator()
 
 	unaryFn, _ := otelconnect.NewInterceptor(
+		otelconnect.WithTrustRemote(),
 		otelconnect.WithPropagator(propagator),
 	)
 
