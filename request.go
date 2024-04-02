@@ -2,6 +2,7 @@ package interceptor
 
 import (
 	"context"
+	"net/url"
 
 	"connectrpc.com/connect"
 	"google.golang.org/grpc/metadata"
@@ -46,4 +47,22 @@ func WithContext() connect.Option {
 	unaryFn := connect.UnaryInterceptorFunc(interFn)
 	// prepare the option
 	return connect.WithInterceptors(unaryFn)
+}
+
+// GetRequestURL returns the request URL
+func GetRequestURL(r connect.AnyRequest) *url.URL {
+	uri := &url.URL{
+		Scheme: "http",
+		Host:   r.Header().Get("Host"),
+	}
+
+	if value := r.Header().Get("X-Forwarded-Host"); value != "" {
+		uri.Host = value
+	}
+
+	if value := r.Header().Get("X-Forwarded-Proto"); value != "" {
+		uri.Scheme = value
+	}
+
+	return uri
 }
