@@ -9,14 +9,14 @@ require (
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
 	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/ralch/slogr v0.0.0-20231103131639-6be682bdd645
-	google.golang.org/api v0.193.0
+	google.golang.org/api v0.194.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142
 	google.golang.org/grpc v1.65.0
 )
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.32.0-20240221180331-f05a6f4403ce.1 // indirect
-	cloud.google.com/go/auth v0.9.0 // indirect
+	cloud.google.com/go/auth v0.9.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.4 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
 	cloud.google.com/go/logging v1.11.0 // indirect
@@ -40,7 +40,7 @@ require (
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sys v0.23.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 	google.golang.org/genproto v0.0.0-20240814211410-ddb44dafa142 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240730163845-b1a4ccb954bf // indirect
