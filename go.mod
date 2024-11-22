@@ -10,7 +10,7 @@ require (
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
 	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/ralch/slogr v0.0.0-20231103131639-6be682bdd645
-	google.golang.org/api v0.208.0
+	google.golang.org/api v0.209.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241113202542-65e8d215514f
 	google.golang.org/grpc v1.68.0
 )
