@@ -4,7 +4,7 @@ go 1.21.1
 toolchain go1.22.9
 
 require (
-	connectrpc.com/connect v1.17.0
+	connectrpc.com/connect v1.18.0
 	connectrpc.com/otelconnect v0.7.1
 	connectrpc.com/validate v0.1.0
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
