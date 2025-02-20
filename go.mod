@@ -1,7 +1,7 @@
 module github.com/connect-sdk/interceptor
 
 go 1.21.1
-toolchain go1.22.9
+toolchain go1.23.6
 
 require (
 	connectrpc.com/connect v1.18.1
@@ -10,8 +10,8 @@ require (
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
 	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/ralch/slogr v0.0.0-20231103131639-6be682bdd645
-	google.golang.org/api v0.221.0
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250207221924-e9438ea467c6
+	google.golang.org/api v0.222.0
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250212204824-5a70512c5d8b
 	google.golang.org/grpc v1.70.0
 )
 
