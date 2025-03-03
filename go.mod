@@ -5,7 +5,7 @@ toolchain go1.23.6
 
 require (
 	connectrpc.com/connect v1.18.1
-	connectrpc.com/otelconnect v0.7.1
+	connectrpc.com/otelconnect v0.7.2
 	connectrpc.com/validate v0.2.0
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
 	github.com/gofrs/uuid v4.4.0+incompatible
