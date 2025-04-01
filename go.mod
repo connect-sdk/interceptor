@@ -12,7 +12,7 @@ require (
 	github.com/ralch/slogr v0.0.0-20231103131639-6be682bdd645
 	google.golang.org/api v0.228.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4
-	google.golang.org/grpc v1.71.0
+	google.golang.org/grpc v1.71.1
 )
 
 require (
