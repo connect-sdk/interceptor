@@ -16,8 +16,8 @@ cloud.google.com/go/longrunning v0.6.7 h1:IGtfDWHhQCgCjwQjV9iiLnUta9LBCo8R9QmAFs
 cloud.google.com/go/longrunning v0.6.7/go.mod h1:EAFV3IZAKmM56TyiE6VAP3VoTzhZzySwI/YI1s/nRsY=
 connectrpc.com/connect v1.18.1 h1:PAg7CjSAGvscaf6YZKUefjoih5Z/qYkyaTrBW8xvYPw=
 connectrpc.com/connect v1.18.1/go.mod h1:0292hj1rnx8oFrStN7cB4jjVBeqs+Yx5yDIC2prWDO8=
-connectrpc.com/otelconnect v0.7.2 h1:WlnwFzaW64dN06JXU+hREPUGeEzpz3Acz2ACOmN8cMI=
-connectrpc.com/otelconnect v0.7.2/go.mod h1:JS7XUKfuJs2adhCnXhNHPHLz6oAaZniCJdSF00OZSew=
+connectrpc.com/otelconnect v0.8.0 h1:a4qrN4H8aEE2jAoCxheZYYfEjXMgVPyL9OzPQLBEFXU=
+connectrpc.com/otelconnect v0.8.0/go.mod h1:AEkVLjCPXra+ObGFCOClcJkNjS7zPaQSqvO0lCyjfZc=
 connectrpc.com/validate v0.3.0 h1:eMPASBQM+ztVzuLSXddB61zwJKzvWWZ6RLdIwTgh9Wo=
 connectrpc.com/validate v0.3.0/go.mod h1:QLGN/m+oDeI4zaDAANK1L1G5K4i8gg6CUUwyl3HAG4A=
 github.com/antlr4-go/antlr/v4 v4.13.0 h1:lxCg3LAv+EUK6t1i0y1V6/SLeUi0eKEKdhQAlS8TVTI=
