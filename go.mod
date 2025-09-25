@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.24.1
 
 require (
-	connectrpc.com/connect v1.18.1
+	connectrpc.com/connect v1.19.0
 	connectrpc.com/otelconnect v0.8.0
 	connectrpc.com/validate v0.3.0
 	github.com/connect-sdk/telemetry v0.0.0-20240226062722-42812fc9d577
@@ -47,5 +47,5 @@ require (
 	golang.org/x/text v0.28.0 // indirect
 	google.golang.org/genproto v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250707201910-8d1bb00bc6a7 // indirect
-	google.golang.org/protobuf v1.36.8 // indirect
+	google.golang.org/protobuf v1.36.9 // indirect
 )
